@@ -27,4 +27,74 @@
           align-items: center;
   padding: 3rem 2rem 1rem 2rem;
 }
+
+.container .text {
+  background: transparent;
+}
+
+.container .text h2 {
+  color: #512051;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -1.14286px;
+  padding-bottom: 1.5rem;
+  background: transparent;
+}
+
+.container .text p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #927B91;
+  width: 327px;
+  height: 100px;
+  background: transparent;
+}
+
+.container .reviews {
+  width: 327px;
+  height: 266px;
+  background: transparent;
+}
+
+.container .reviews .reviews__container {
+  width: 327px;
+  height: 78px;
+  background: #F7F2F7;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+}
+
+.container .reviews .reviews__container .reviews__starts {
+  background: none;
+  padding-bottom: .5rem;
+}
+
+.container .reviews .reviews__container .reviews__starts img {
+  padding-right: 6px;
+}
+
+.container .reviews .reviews__container .reviews__text {
+  color: #512051;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+}
 /*# sourceMappingURL=style.css.map */

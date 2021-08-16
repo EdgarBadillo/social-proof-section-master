@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 
+$textPurple: #512051;
+
 *{
 
     padding: 0;
@@ -15,6 +17,7 @@
 
 
 // variables
+
 .container{
 
     display: flex;
@@ -23,4 +26,81 @@
     justify-content: center;
     align-items: center;
     padding: 3rem 2rem 1rem 2rem;
+
+
+
+
+
+
+    .text{
+    
+        background: transparent;
+    
+        h2{
+    
+            color: $textPurple;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: -1.14286px;
+            padding-bottom: 1.5rem;
+            background: transparent;
+        }
+    
+        p{
+    
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: -0.5px;
+            color: #927B91;
+            width: 327px;
+            height: 100px;
+            background: transparent;  
+         }
+    
+    }
+
+    .reviews{
+
+        width: 327px;
+        height: 266px;
+        background: transparent;
+
+        .reviews__container{
+
+            width: 327px;
+            height: 78px;
+            background: #F7F2F7;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;           
+            
+
+            .reviews__starts{
+
+                background: none;
+                padding-bottom: .5rem;
+
+                img{
+
+                    padding-right: 6px;
+                }
+            }
+
+            .reviews__text{
+                color: $textPurple;
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 15px;
+            }
+            
+        }
+    }
 }
+
