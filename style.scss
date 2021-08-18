@@ -102,5 +102,112 @@ $textPurple: #512051;
             
         }
     }
+
+    .cardContainer{
+
+
+
+        .cards{
+    
+            margin-top: 1rem;
+    
+            .cards__card{
+    
+                width: 327px;
+                height: 248px;
+                background: #512051;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 2rem;
+                
+    
+                .cards__card--user{
+    
+                    display: flex;
+                    flex-direction: row;
+    
+                    .cards__card--user--smith{
+    
+                        background-image: url(/images/image-colton.jpg);
+                        background-repeat: no-repeat;
+                        width: 40px;
+                        height: 40px;
+                        background-size: cover;
+                        border-radius: 50%;
+                    }
+
+                    .cards__card--user--irene{
+    
+                        background-image: url(/images/image-irene.jpg);
+                        background-repeat: no-repeat;
+                        width: 40px;
+                        height: 40px;
+                        background-size: cover;
+                        border-radius: 50%;
+                    }
+
+                    .cards__card--user--anne{
+    
+                        background-image: url(/images/image-anne.jpg);
+                        background-repeat: no-repeat;
+                        width: 40px;
+                        height: 40px;
+                        background-size: cover;
+                        border-radius: 50%;
+                    }
+
+                    .cards__card--user--info{
+
+                        
+                        width: 105px;
+                        height: 40px;
+                        margin-left: 2rem;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+
+                        h3{
+
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 13px;
+                            line-height: 15px; 
+                            color: #fff;
+                        }
+
+                        span{
+
+                            font-weight: normal;
+                            font-size: 13px;
+                            line-height: 15px;
+                            color: #EE69A4;
+                        }
+                    }
+    
+                    
+    
+                }
+
+                .cards__card--text{
+
+                    padding-top: 1.5rem;
+                    color:white;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 22px;
+                    letter-spacing: -0.232143px;
+
+
+                }
+    
+            }
+    
+        }
+    }
 }
 
